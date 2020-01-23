@@ -69,7 +69,7 @@ As with all other Konvoy deployments, if there is an error, it could be a race c
 ```
 If you have already made it to the "Addons" section of the deployment, and the install errors out, you can skip the full "up" process and skip to deploying the addons:
 ```
-konvoy deploy addons -y
+./konvoy deploy addons -y
 ```
 
 **Apply Kubeconfig Not Working**
