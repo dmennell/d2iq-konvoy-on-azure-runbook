@@ -1,9 +1,12 @@
 # D2iQ Konvoy On Microsoft Azure Runbook
-This is a simple quickstart guide for deploying D2iQ Konvoy Kubernetes on Azure Public Cloud.  This is by no means an exhaustive documentation.  It is merely a quick start on what is needed to get up and running with Konvoy on Azure.
+This is a simple quickstart guide for deploying D2iQ Konvoy Kubernetes on Azure Public Cloud.  This is by no means an exhaustive documentation.  It is merely a quick start on what is needed to get up and running with Konvoy on Azure.  Complete documentation for deploying Konboy Kubernetes on Azure can be found here:
+https://docs.d2iq.com/ksphere/konvoy/latest/install/install-azure/
+
 
 
 ## Azure Credentials and CLI Setup
 To successfully deploy a Konvoy cluster on Azure, you will first need to install the Azure CLI, configure your credentials, and successfully login through the CLI.  Instructions can be found here:
+https://github.com/dmennell/d2iq-konvoy-on-azure-runbook/blob/master/azure-credentials-config.md
 
 ## Konvoy Install Node SetupSetup
 Process you need to follow to get the files in place prior to running the install.
@@ -50,9 +53,6 @@ And login using the credentials below.
 
 If the cluster was recently created, the dashboard and services may take a few minutes to be accessible.
 ```
-
-
-
 
 ## Deployment Notes
 
