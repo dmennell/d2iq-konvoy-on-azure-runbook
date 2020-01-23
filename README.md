@@ -78,7 +78,7 @@ If you are getting an error message that Konvoy cannot update the kubeconfig fil
 ./konvoy apply kubeconfig --force-overwrite
 ```
 
-**It Takes a While***
+**It Takes a While**
 Konvoy on Azure takes a-lot longer to provision than on AWS or Google (roughly 30 minutes in my experience).  This is a function of the time it takes Azure to provision the resources, not Konvoy.  Please be patient.
 
 **Verified Developer Error**
